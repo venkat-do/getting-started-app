@@ -1,0 +1,11 @@
+{
+  "builds": [
+    { "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "docker": {
+    "port": 3000
+  }
+}
